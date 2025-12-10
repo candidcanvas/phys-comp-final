@@ -69,7 +69,7 @@ img {
     <a href="#Module3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Design Statement</a> 
     <a href="#Activity1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Activity 1</a> 
     <a href="#Activity2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Activity 2</a>
-    <a href="#AdditionalResearch" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Final Tests</a>
+    <a href="#AdditionalResearch" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Clean Up</a>
     <a href="#Project2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Final Designs</a> 
   </div>
 </nav>
@@ -113,9 +113,9 @@ img {
   <div id="Activity1" >
     <h2>Activity 1: Hidden Message</h2>
     <div class="grid">
-      <img src="images/Activity1/worm.gif" style="width:100%" onclick="onClick(this)" alt="For our first audience interactive visual, Belinda wanted to play around with a hidden message. She pitched some tutorials on text effects, one of them being this reaction diffusion pattern. I played with it to see how it would look, and, though it looked interesting, it didn’t fit in with our other visual concepts."> 
-      <img src="images/Activity1/ripple.gif" style="width:100%" onclick="onClick(this)" alt="We also looked at some glitchy ripple effects to also try. I revisited a tutorial I tried over the summer to try a circular glitch look, but it also doesn’t translate well with readable text. After these two tests, we also decided that adding effects on the text, when there’s already going to be a particle system covering it, would become overwhelming for the user and render the hidden message unclear.">
-      <img src="images/Activity1/walk1.gif" style="width:100%" onclick="onClick(this)" alt="I spent some time testing out the Kinect rig on the truss in AA1A to play with the interactive particle system we wanted in our first visual. It was my first time digging into how to use the Kinect in TouchDesigner alongside some tutorials on how to use it with the Optical Flow tool. The initial tests were rough, considering that Derivative updated the framework for the ParticlesGPU tool and it no longer matched the tutorial exactly. Most of my time during this test was spent dissecting the new system and finding which nodes and parameters were the closest to what was being shown in the tutorial.">
+      <img src="images/Activity1/worm.gif" style="width:100%" onclick="onClick(this)" alt="For our first audience interactive visual, Belinda wanted to play around with a hidden message. I played with this reaction diffusion pattern effect she share to see how it would look, but it didn’t fit in with our other visual concepts."> 
+      <img src="images/Activity1/ripple.gif" style="width:100%" onclick="onClick(this)" alt="We also looked at some glitchy ripple effects to also try, but it also doesn’t translate well with readable text. After these two tests, we also decided that adding effects on the text, when there’s already going to be a particle system covering it, would become overwhelming for the user and render the hidden message unclear.">
+      <img src="images/Activity1/walk1.gif" style="width:100%" onclick="onClick(this)" alt="I spent some time testing out the Kinect rig on the truss in AA1A to play with the interactive particle system in our first visual. It was my first time using Kinect in TouchDesigner with some tutorials on how to integrate it with the Optical Flow tool.">
       <img src="images/Activity1/map.jpeg" style="width:100%" onclick="onClick(this)" alt="Once I had most of the interactivity set up, Belinda sent me the assets she created for our custom particle map. I turned it into a working texture map based on the Leaf texture built into ParticlesGPU.">
       <img src="images/Activity1/walk2.gif" style="width:100%" onclick="onClick(this)" alt="After plugging in our textures, we did some additional tweaks to achieve the look and user experience we wanted out of this visual.">
     </div>
@@ -124,9 +124,9 @@ img {
   <div id="Activity2" class="w3-row-padding">
     <h2>Activity 2: Music in Motion</h2>
     <div class="grid">
-      <img src="images/Activity2/feedback.jpeg" style="width:100%" onclick="onClick(this)" alt="test2Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/Activity2/midi.jpeg" style="width:100%" onclick="onClick(this)" alt="test3Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/Activity2/keysout.gif" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+      <img src="images/Activity2/feedback.jpeg" style="width:100%" onclick="onClick(this)" alt="I followed this tutorial (Tschepe, 2024) to create a feedback loop resembling ink in water based on Zainab's concept of music reaching the audience.">
+      <img src="images/Activity2/midi.jpeg" style="width:100%" onclick="onClick(this)" alt="Using the keyboard experiments from Module 2, I set up the MIDI keyboard within this system.">
+      <img src="images/Activity2/keysout.gif" style="width:100%" onclick="onClick(this)" alt="I replaced the noise bar from the tutorial with the MIDI TOP output so that the visual would instead react to the notes played and create the ink fall effects.">
       <img src="images/Activity2/silhouette.gif" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
       <img src="images/Activity2/inputs.gif" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
     </div>
@@ -135,13 +135,11 @@ img {
   <hr style="width:90%;border:5px solid grey;margin-top:80px" class="w3-round"></hr>
 
   <div id="AdditionalResearch" class="w3-row-padding">
-    <h2>Final Tests</h2>
+    <h2>Clean Up</h2>
     <div class="grid">
-      <img src="images/AdditionalResearch/happy.png" style="width:100%" onclick="onClick(this)" alt="test2Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/AdditionalResearch/happy.png" style="width:100%" onclick="onClick(this)" alt="test3Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/AdditionalResearch/happy.png" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/AdditionalResearch/happy.png" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-      <img src="images/AdditionalResearch/happy.png" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+      <img src="images/AdditionalResearch/colour.jpeg" style="width:100%" onclick="onClick(this)" alt="test2Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+      <img src="images/AdditionalResearch/print.gif" style="width:100%" onclick="onClick(this)" alt="test3Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+      <img src="images/AdditionalResearch/kinectresolve.gif" style="width:100%" onclick="onClick(this)" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
     </div>
   </div>
 
@@ -151,7 +149,7 @@ img {
     <h1 class="w3-xxxlarge w3-text-red"><b>Final Designs</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <h2>Enhanced Live Music Experiences</h2>
-    <p>A set of 3 live interactive visuals that respond to audience's body input and performers' music input, designed to create tangible dialogue that brings the two closer during performances.
+    <p>A set of live interactive visuals that respond to audience's body input and performers' music input, designed to create tangible dialogue that brings the two closer during performances.
     </p>
     <img src="images/final/happy.png" style="width:60%" onclick="onClick(this)" alt="test2Lorem ipsum dolor sit amet, consectetur adipiscing elit">
   </div>
